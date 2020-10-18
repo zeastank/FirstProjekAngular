@@ -1,0 +1,18 @@
+<h2>Product-list of Smartphone</h2>
+<div class="row">
+  <div class="col-sm" *ngFor="let produk of products">
+    <div class="card" style="width: 18rem;">
+      <h3 class="card-header">
+        <a [title]="'Detail dari produk ' + produk.nama">
+          {{ produk.nama}}
+        </a>
+      </h3>
+      <div class="card-body">
+        <p *ngIf="produk.deskripsi">
+          Deskripsi: {{produk.deskripsi}}
+        </p>
+        <button class="btn btn-primary" (click)="bagikan()">Share</button>
+      </div>
+    </div>
+  </div>
+</div>

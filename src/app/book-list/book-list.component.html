@@ -1,0 +1,26 @@
+<h2>Book List</h2>
+
+<div>
+	<table class="table table-bordered">
+    <thead class="thead-dark">
+		<tr>
+			<th>Kode Buku</th>
+			<th>Judul</th>
+			<th>Pengarang</th>
+			<th>Kategori</th>
+			<th>ISBN</th>
+			<th>Penerbit</th>
+			<th>Kota Terbit</th>
+    </tr>
+    </thead>
+		<tr *ngFor="let book of books">
+			<td>{{book.kodebuku}}</td>
+			<td>{{book.judul}}</td>
+			<td>{{book.pengarang}}</td>
+			<td>{{book.kategori}}</td>
+			<td>{{book.isbn}}</td>
+			<td>{{book.penerbit}}</td>
+			<td>{{book.kota_terbit}}</td>
+		</tr>
+	</table>
+</div>
