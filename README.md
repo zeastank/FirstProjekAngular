@@ -1,3 +1,9 @@
+# Repositori yang digunakan untuk tugas Angular
+
+# Penggunaan
+
+Instal angular pada projek terlebih dahulu sebelum melakukan pull
+
 # WebCRUD
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
